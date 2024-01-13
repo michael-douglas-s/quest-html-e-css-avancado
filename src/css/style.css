@@ -1,0 +1,75 @@
+body{
+       background-image: url(../images/bg-desktop.svg);
+       background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    max-height: 800px;
+}
+header .logo{
+    margin: 40px 0 60px 40px;
+
+}
+main.container{
+    display: flex;
+  
+}
+main.container .ilustracao{
+
+    margin-left: 40px;
+
+}
+main.container .ilustracao img{
+    width:100%
+}
+main.container .service{
+    max-width: 460px;
+    margin: 40px auto;
+}
+main.container .service h1{
+    color: #FFF;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 39px;
+}
+main.container .service p{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-weight: 400;
+    margin-bottom:30px;
+    text-align: justify;
+}
+main.container .service a{
+    color: hsl(257, 40%, 49%);
+    background-color: #FFF;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+main.container .service a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #FFF;
+}
+footer{
+    display: flex;
+    justify-content:flex-end;
+    margin: 0 30px 25px 0; 
+   
+    
+}
+footer nav ul{
+    display: flex;
+    padding: 30px;
+    gap:10px
+}
+footer .icones-redes-sociais a{
+    border: 1px solid #FFF;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+footer .icones-redes-sociais a {
+    color: #FFF;
+}
+footer .icones-redes-sociais a:hover{
+    color:hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}

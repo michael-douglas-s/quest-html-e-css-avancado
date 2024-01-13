@@ -1,0 +1,28 @@
+@media(max-width:750px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    header .logo{
+        margin-top: 50px;
+    }
+    main.container{margin-top: 50px;
+        flex-direction: column;
+    }
+    .ilustracao{
+        margin:0 50px
+    }
+    .ilustracao img{
+        max-width:100%
+    }
+    main.container .service{
+        margin-top: 50px;
+        text-align: center;
+        row-gap: 50px;
+    }
+    footer{
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+}
